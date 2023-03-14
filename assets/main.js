@@ -5,7 +5,6 @@ let navEle = undefined;
 let themeEle = undefined;
 let sectionEle = undefined;
 
-// 屏幕高度
 function getClientHeight() {
   let height = 0;
   if (document.body.clientHeight && document.documentElement.clientHeight) {
@@ -22,20 +21,17 @@ function getClientHeight() {
   return height;
 }
 
-// hash修改
 function changeHash(id) {
   const url = location.pathname + "#" + id;
   history.replaceState(null, null, url);
 }
 
-// header子菜单点击
 function handleHeaderSubMenuClick(e, href) {
   e.stopPropagation();
   e.preventDefault();
   location.href = href;
 }
 
-// 初始化
 function init() {
   console.log("document ready!");
   initData();
@@ -43,7 +39,6 @@ function init() {
   initScroll();
 }
 
-// 数据初始化
 function initData() {
   clientHeight = getClientHeight();
   navEle = document.querySelector(".header-bar");
@@ -55,7 +50,6 @@ function initData() {
   }
 }
 
-// 导航栏初始化
 function initNav() {
   const headerEle = document.querySelector(".header-bar");
   const navItems = document.querySelectorAll(".nav .item");
@@ -64,7 +58,6 @@ function initNav() {
   const listItems = document.querySelectorAll(".nav .item ul li");
   const menuEle = document.querySelector(".header-bar .menu");
 
-  // 菜单点击
   if (navItems) {
     for (let item of navItems) {
       item.onclick = function (e) {
@@ -76,7 +69,6 @@ function initNav() {
           parentTarget.getAttribute("data-id");
 
         const nextDom = document.querySelector("#" + id);
-        // 如果有目标元素才进行跳转
         if (nextDom) {
           const top = nextDom.offsetTop;
           document.scrollingElement.scrollTo({
@@ -99,7 +91,6 @@ function initNav() {
     }
   }
 
-  // 主题切换点击
   if (themeEle) {
     themeEle.onclick = function () {
       const html = document.querySelector("html");
@@ -110,19 +101,18 @@ function initNav() {
     };
   }
 
-  // 语言切换点击
-  if (langEle) {
-    langEle.onclick = function () {
-      switch (langEle.innerText) {
-        case "en":
-          location.href = "/fr";
-          break;
-        case "fr":
-          location.href = "/";
-          break;
-      }
-    };
-  }
+  // if (langEle) {
+  //   langEle.onclick = function () {
+  //     switch (langEle.innerText) {
+  //       case "en":
+  //         location.href = "/fr";
+  //         break;
+  //       case "fr":
+  //         location.href = "/";
+  //         break;
+  //     }
+  //   };
+  // }
 
   // 子菜单点击
   // if (listItems) {

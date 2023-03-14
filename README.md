@@ -1,41 +1,10 @@
+# LOCC Blog Website
 
-# Deploy Hugo + Netlify CMS in minutes!
-
-
-[![Hugo theme Remix, screenshot of the Homepage](static/img/screenshot.jpg)](https://remix.roneo.app)
-
-- [Demo](https://remix.roneo.app)
-- Source code: [Gitlab](https://gitlab.com/Roneo/hugo-remix-one-click-netlify-cms.git) | [Github](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms)
-- Deployment:
-
-<div align="center">
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms&stack=cms)
-
-</div>
-
-## Features
-
-- [Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms&stack=cms) in minutes
-- Hassle-free edition with [Netlify CMS](https://www.netlifycms.org/)
-- Dark and light themes
-- Fully responsive
-- Beginner-friendly: no submodule, no npm required
-- Multilingual support
-- Easy customization with [CSS variables](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms/blob/main/assets/normalize.scss)
-- Contact form
-- [Font Awesome 6](https://fontawesome.com/search?m=free)
-- Excellent [results on Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A//remix.roneo.app/&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo):
-
-![Nearly perfect results on Google's benchmarks](static/img/lighthouse.png)
-
-
-## Getting started
-
+LOCC website using the [Remix](https://remix.roneo.app) theme as its base
 
 ### Deploy to Netlify
 
-You can generate your own website based on Remix with [this link](https://app.netlify.com/start/deploy?repository=https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms&stack=cms). You will be guided through the following steps:
+Use Remix template to deploy from netlify directly from [this link](https://app.netlify.com/start/deploy?repository=https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms&stack=cms). You will be guided through the following steps:
 
 1. this repo will be duplicated on Github or Gitlab. An account is required and will be created on the way if needed.
 2. [Netlify](https://www.netlify.com/) will then use these files to build your website. Hosting, SSL certificate and domain are automatically set up. For free!
@@ -52,33 +21,6 @@ Hugo versions 0.71, 0.80 and 0.96 was successfully tested. Note that Hugo **exte
 ## Acknowledgements
 
 Remix is based on [Kimix](https://github.com/OhBonsai/kimix), by [OhBonsaï](https://github.com/OhBonsai). See [CHANGELOG.md](/CHANGELOG.md) for a diff.
-
-## Screenshots
-
-### Dark theme
-
-![Dark theme](static/img/dark-theme.png)
-
-### Light theme
-
-![Light theme](static/img/light-theme.png)
-
-### Netlify CMS / Homepage
-
-![Homepage of Netlify CMS](static/img/admin.png)
-
-### Edition
-
-![Single post edition](static/img/edition.png)
-
-### Media management
-
-![Media gallery](static/img/media.png)
-
-
-
-
-## License
 
 [Remix](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms) is released under the [Apache 2.0 license](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms/blob/main/LICENSE)
 

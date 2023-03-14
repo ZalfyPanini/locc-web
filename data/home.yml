@@ -1,21 +1,9 @@
 en:
-  title: Remix, a <span>theme for Hugo</span> fully editable with <span>Netlify
-    CMS</span>
-  slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
+  title: <span>LOCC</span>, Lamma's <span>best</span> outrigger paddling club
+  slogan: Come join us on the <span>sea!</span>
   shortDescription: |
-    
-    → Get your own copy of this website in minutes.
-    → Edit everything with no single line of code.
-    → It's free and open-source!
-  image: /media/wave.jpg
-  copyright: "  © 2017-2022 - OhBonsaï &"
-  register: Roneo.org
-  registerUrl: https://roneo.org/en
-fr:
-  image: /media/wave.jpg
-  title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
-  slogan: Lorem magna eiusmod ea eu irure exercitation non incididunt.
-  shortDescription: « Quis do pariatur quis nostrud elit in»
-  copyright: "  © 2017-2022 - OhBonsaï &"
-  register: Roneo.org
-  registerUrl: https://roneo.org/en
+
+  image: /img/hero.webp
+  copyright: "  © 2009-2023 - LOCC"
+  register: lammaocc.hk
+  registerUrl: https://lammaocc.hk

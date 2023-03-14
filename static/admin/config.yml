@@ -6,24 +6,24 @@ media_folder: "/static/media" # Folder where user uploaded files should go
 public_folder: "/media"
 editor:
   preview: false
-locale: 'fr'
+locale: 'en'
 
 # Allow local visit
 # You need to run at the root of the project `npx netlify-cms-proxy-server`
 local_backend: true
 
 # i18n https://www.netlifycms.org/docs/beta-features/#i18n-support
-i18n:
-  structure: multiple_folders
-  locales: [ en, fr ]
-  default_locale: en
+# i18n:
+  # structure: multiple_folders
+  # locales: [ en, fr ]
+  # default_locale: en
 
 
 # collections configuration
 collections:
   - name: "sections"
     label: "Global settings"
-    i18n:
+    # i18n:
       structure: single_file
       locales: [ en, fr ]
     files:

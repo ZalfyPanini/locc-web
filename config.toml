@@ -1,11 +1,11 @@
-baseURL = 'https://roneo.itcouldbewor.se/'
+baseURL = 'https://lammaocc.hk/'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 
 
 [params]
-  title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
-  metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
+  title = 'LOCC'
+  metaDescription = "Lamma Outrigger Canoe Club"
 
 
 # Languages
@@ -15,14 +15,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 mark = "EN"
-
-[Languages.fr]
-languageName = "fr"
-languageCode = "fr-fr"
-contentDir = "content/fr"
-weight = 2
-mark = "FR"
-
 
 [taxonomies]
   category= "theme"
