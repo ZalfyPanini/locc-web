@@ -1,7 +1,13 @@
-<!-- {{ $data := index site.Data site.Language.Lang}} -->
-{{ $data := index site.Data.about site.Language.Lang }}
+<!DOCTYPE html>
+<head>
 
-<section class="section sec2 content-sec" id="about">
+</head>
+<body>
+
+<!-- {{ $data := index site.Data site.Language.Lang}}
+{{ $data := index site.Data.about site.Language.Lang }} -->
+
+<!-- <section class="section sec2 content-sec" id="about"> -->
 
     <div class="main-title">
         <h2> {{ $data.title | safeHTML }}
@@ -29,4 +35,6 @@
 
     </div>
 
-</section>
+<!-- </section> -->
+
+</body>

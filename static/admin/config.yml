@@ -24,8 +24,8 @@ collections:
   - name: "sections"
     label: "Global settings"
     # i18n:
-      structure: single_file
-      locales: [ en, fr ]
+      # structure: single_file
+      # locales: [ en, fr ]
     files:
       - file: "data/home.yml"
         i18n: true

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LOCC Blog Website
 
 LOCC website using the [Remix](https://remix.roneo.app) theme as its base
@@ -21,17 +22,25 @@ Hugo versions 0.71, 0.80 and 0.96 was successfully tested. Note that Hugo **exte
 ## Acknowledgements
 
 Remix is based on [Kimix](https://github.com/OhBonsai/kimix), by [OhBonsaï](https://github.com/OhBonsai). See [CHANGELOG.md](/CHANGELOG.md) for a diff.
+=======
+# Alfie Blog
+
+Blog that I put some of my tutorials and extra desk research onto.
+
+
+
+
+
+# Acknowledgements
+- Project is based off of a [modified version of Remix](https://gitlab.com/Roneo/hugo-remix-one-click-netlify-cms.git) 
+    Check their repo for information on setup. 
+
+- Remix is based on [Kimix](https://github.com/OhBonsai/kimix), by [OhBonsaï](https://github.com/OhBonsai). See [CHANGELOG.md](/CHANGELOG.md) for a diff.
+
+## License
+>>>>>>> origin/main
 
 [Remix](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms) is released under the [Apache 2.0 license](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms/blob/main/LICENSE)
-
-## Contribute
-
-This project is open to contribution. I personnaly [use this Gitlab repo](https://gitlab.com/Roneo/hugo-remix-one-click-netlify-cms/-/boards/4323820) but feel free to open a ticket or submit a PR [on Github](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms)
-
-## Going further
-
-- Please star this repo [on Github](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms) or [Gitlab](https://gitlab.com/Roneo/hugo-remix-one-click-netlify-cms), to help this project gain some visibility and reach new contributors
-- To get more, follow me [on Github](https://github.com/RoneoOrg) or [Gitlab](https://gitlab.com/Roneo), and checkout my [recent posts on Hugo](https://roneo.org/en/)
 
 
 <!-- 

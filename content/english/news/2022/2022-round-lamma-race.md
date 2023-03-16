@@ -2,9 +2,9 @@
 nType: new
 title: 2022 Racing Season Kicks Off! 
 date: 2022-04-11T03:23:40.860Z
-image: /img/202.jpg
+image: /img/round-lamma-hero.webp
 summary: |
-  Nulla magna eiusmod ea eu irure exercitation non incididunt.
+  The return of the Round Lamma Race after two years of COVID!
 ---
 
 
