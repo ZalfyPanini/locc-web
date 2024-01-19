@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LOCC Blog Website
 
 LOCC website using the [Remix](https://remix.roneo.app) theme as its base
@@ -28,9 +27,6 @@ Remix is based on [Kimix](https://github.com/OhBonsai/kimix), by [OhBonsaï](htt
 Blog that I put some of my tutorials and extra desk research onto.
 
 
-
-
-
 # Acknowledgements
 - Project is based off of a [modified version of Remix](https://gitlab.com/Roneo/hugo-remix-one-click-netlify-cms.git) 
     Check their repo for information on setup. 
@@ -38,7 +34,6 @@ Blog that I put some of my tutorials and extra desk research onto.
 - Remix is based on [Kimix](https://github.com/OhBonsai/kimix), by [OhBonsaï](https://github.com/OhBonsai). See [CHANGELOG.md](/CHANGELOG.md) for a diff.
 
 ## License
->>>>>>> origin/main
 
 [Remix](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms) is released under the [Apache 2.0 license](https://github.com/RoneoOrg/hugo-remix-one-click-netlify-cms/blob/main/LICENSE)
 
